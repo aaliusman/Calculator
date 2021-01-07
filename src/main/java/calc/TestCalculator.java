@@ -63,7 +63,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testDecimals() {
+    public void testDivision() {
 
         //Expected result
         int expectedDiv1 = 5;
@@ -125,7 +125,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testDivision() {
+    public void testDecimal() {
 
         //Expected result
         double expectedDec1 = 3.15354;

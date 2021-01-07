@@ -60,7 +60,6 @@ public class TestCalculator {
         //Test four
         int actualTotal = actualSum1 + actualSum2 + actualSum3;
         Assert.assertEquals(actualTotal, expectedTotal, "Addition Test Four Failed");
-
     }
 
     @Test
@@ -123,7 +122,6 @@ public class TestCalculator {
         driver.findElement(By.id("equals")).click();
         String actualDiv5 = driver.findElement(By.id("display")).getText();
         Assert.assertEquals(actualDiv5, expectedDiv5, "Division Test five failed");
-
     }
 
     @Test
@@ -166,7 +164,6 @@ public class TestCalculator {
         driver.findElement(By.id("equals")).click();
         String actualDec2 = driver.findElement(By.id("display")).getText();
         Assert.assertEquals(actualDec2, expectedDec2, "Decimal Test two failed");
-
     }
 
     public void waitUntilVisible(By locator) {

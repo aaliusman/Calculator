@@ -47,7 +47,7 @@ public class TestCalculator {
         int actualSum2 = Integer.parseInt(sumTwo);
         Assert.assertEquals(actualSum2, expectedSum2, "Addition Test two failed");
 
-        //Test two
+        //Test three
         driver.findElement(By.id("clear")).click();
         driver.findElement(By.id("three")).click();
         driver.findElement(By.xpath("//input[@value='+']")).click();
